@@ -8,7 +8,7 @@ bool flag=true;
 Console.WriteLine("do u want to display it across multipule lines?");
 Console.WriteLine("0 = yes, no = 1");
 int noNewLines = int.Parse(Console.ReadLine());
-
+Console.Clear();
 Console.WriteLine("Before Bubble Sorting");
 Console.WriteLine(" ");
 for (int i = 0; i < bubble.Length; i++)
